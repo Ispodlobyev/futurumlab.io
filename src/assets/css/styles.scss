@@ -2,6 +2,11 @@
 @import 'mixins';
 @import 'variables';
 
+body {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
 .main {
   @include font-family-raleway();
 }
